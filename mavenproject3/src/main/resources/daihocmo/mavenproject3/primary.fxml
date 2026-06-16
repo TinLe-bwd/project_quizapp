@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="container" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="daihocmo.mavenproject3.PrimaryController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="QUIZ APP" />
+      <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#mangeQuestions" text="quan ly cau hoi" textAlignment="JUSTIFY" />
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#practice" text="luyen thi" />
+      <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#exam" text="luyen tap" />
+      <ComboBox prefWidth="150.0" styleClass="button" stylesheets="@darkmode.css" />
+   </children>
+   <stylesheets>
+      <URL value="@whitemode.css" />
+      <URL value="@darkmode.css" />
+      <URL value="@tinle.css" />
+   </stylesheets>
+</VBox>
